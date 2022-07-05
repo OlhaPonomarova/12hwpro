@@ -1,0 +1,21 @@
+.container {
+    width: 1400px;
+    margin: 40px auto;
+    font-size: 20px;
+  }
+  
+  .user-row {
+    display: flex;
+  }
+  .user-row span:nth-child(1),
+  .user-row span:nth-child(3) {
+    width: 100px;
+  }
+  .user-row span:nth-child(4) {
+    width: 320px;
+  }
+  .user-row span {
+    padding: 5px;
+    border: 1px solid;
+    width: 240px;
+  }
